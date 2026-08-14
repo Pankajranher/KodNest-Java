@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Student {
+class StudentD {
     // Declare registrationId, name and attendancePercentage
     int registrationId;
     String name;
@@ -11,13 +11,13 @@ class Student {
             Scanner scanner = new Scanner(System.in);
 
             // Create and populate firstStudent
-            Student firstStudent = new Student();
+            StudentD firstStudent = new StudentD();
             firstStudent.registrationId = scanner.nextInt();
             firstStudent.name = scanner.next();
             firstStudent.attendancePercentage = scanner.nextDouble();
 
             // Create and populate secondStudent
-            Student secondStudent = new Student();
+            StudentD secondStudent = new StudentD();
             secondStudent.registrationId = scanner.nextInt();
             secondStudent.name = scanner.next();
             secondStudent.attendancePercentage = scanner.nextDouble();
@@ -26,7 +26,7 @@ class Student {
             int selectedRegistrationId = scanner.nextInt();
             double newAttendancePercentage = scanner.nextDouble();
 
-            Student selectedStudent = null;
+            StudentD selectedStudent = null;
 
             // Make selectedStudent refer to the matching existing object
             if (selectedRegistrationId == firstStudent.registrationId) {

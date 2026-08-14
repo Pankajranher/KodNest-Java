@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+class StudentC {
     int id;
     String name;
     String course;
@@ -11,7 +11,7 @@ public class Create_std_obj {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Student student = new Student();
+        StudentC student = new StudentC();
 
         student.id = scanner.nextInt();
         student.name = scanner.next();

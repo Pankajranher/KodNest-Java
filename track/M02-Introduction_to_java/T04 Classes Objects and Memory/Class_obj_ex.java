@@ -1,6 +1,6 @@
 class Class_obj_ex {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        StudentA s1 = new StudentA();
         s1.roll = 12;
         s1.name = "Pankaj";
         s1.height = 152;
@@ -14,7 +14,7 @@ class Class_obj_ex {
 
         System.out.println(" ");
 
-        Student s2 = new Student();
+        StudentA s2 = new StudentA();
         s2.roll = 12;
         s2.name = "Pankaj";
         s2.height = 152;
@@ -29,7 +29,7 @@ class Class_obj_ex {
     }
 }
 
-class Student {
+class StudentA {
     int roll;
     String name;
     double height;
