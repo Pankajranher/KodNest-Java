@@ -10,7 +10,6 @@ public class Managenig_exce_locally {
     }
 
     static void divide() {
-
         try {
 
             System.out.println("Division started");
